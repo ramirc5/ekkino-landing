@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Services from "./Services";
 export default function About() {
   return (
     <div className="bg-white">
@@ -41,6 +42,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Services />
     </div>
   );
 }

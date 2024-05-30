@@ -2,12 +2,13 @@ import Image from "next/image";
 import Test from "./components/Test";
 import TitleSection from "./components/TitleSection";
 import About from "./components/About";
-
+import ListServices from "./components/ListServices";
 export default function Home() {
   return (
     <>
       <TitleSection />
       <About />
+      <ListServices />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <Test />
 
