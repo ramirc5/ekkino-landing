@@ -24,7 +24,7 @@ export default function TitleSection() {
           <Image src={`/main_icon.png`} width="200" height="230" />
         </div>
         <button class="flex items-center px-4 py-2 border border-gray-400 rounded-full text-gray-700 hover:bg-gray-200 focus:outline-none w-[135px]">
-          Let's Chat
+          Let&apos;s Chat
           <svg
             class="ml-2 w-4 h-4"
             fill="none"
