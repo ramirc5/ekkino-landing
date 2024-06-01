@@ -1,15 +1,15 @@
 export default function Bullets() {
   return (
-    <div class="flex justify-between space-x-4 text-lg font-bold text-gray-900">
-      <span>BRANDING</span>
-      <span>&#8226;</span>
-      <span>WEBSITE</span>
-      <span>&#8226;</span>
-      <span>MARKETING</span>
-      <span>&#8226;</span>
-      <span>COPYWRITING</span>
-      <span>&#8226;</span>
-      <span>DESIGN</span>
+    <div class="flex flex-wrap justify-between text-lg font-semibold text-[#2E2E2F] font-sans">
+      <span className="">BRANDING</span>
+      <span className="">&#8226;</span>
+      <span className="">WEBSITE</span>
+      <span className="hidden sm:block">&#8226;</span>
+      <span className="hidden sm:block">MARKETING</span>
+      <span className="hidden md:block">&#8226;</span>
+      <span className="hidden md:block">COPYWRITING</span>
+      <span className="hidden md:block">&#8226;</span>
+      <span className="hidden md:block">DESIGN</span>
       <span>&#8226;</span>
       <span>MORE</span>
     </div>

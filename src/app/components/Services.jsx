@@ -6,7 +6,7 @@ export default function Services() {
     <div className="flex text-[#2E2E2F] flex-wrap gap-[25px] w-[95%] mx-auto py-[30px] justify-evenly">
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="text-bold text-[32px]">DISCOVERY</h1>
+          <h1 className="font-bold font-sans text-[30px]">DISCOVERY</h1>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -16,7 +16,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="text-bold text-[32px]">STRATEGY</h1>
+          <h1 className="font-bold font-sans text-[30px]">STRATEGY</h1>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -26,7 +26,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="text-bold text-[32px]">CRAFTING</h1>
+          <h1 className="font-bold font-sans text-[30px]">CRAFTING</h1>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -36,7 +36,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="text-bold text-[32px]">EXECUTION</h1>
+          <h1 className="font-bold font-sans text-[30px]">EXECUTION</h1>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -46,7 +46,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="text-bold text-[32px]">OPTIMIZE/SUPPORT</h1>
+          <h1 className="font-bold font-sans text-[30px]">OPTIMIZE/SUPPORT</h1>
           <Image src={ServicesArrow} />
         </div>
         <p>

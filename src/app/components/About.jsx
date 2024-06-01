@@ -6,14 +6,16 @@ export default function About() {
       <div className="w-[85%] text-black mx-auto py-[50px]">
         <div className="flex gap-[50px]">
           <div className="flex flex-col ">
-            <h1 className="text-bold text-[32px]">ABOUT US</h1>
-            <p>
+            <h1 className="text-[#2E2E2F] font-sans font-bold text-[34px]">
+              ABOUT US
+            </h1>
+            <p className="font-semibold">
               Ekkino (ἐκκινέω) means to start, to initiate, to set into motion.
               Our commitment is to catalyze change, spark progress, and propel
               your mission forward through marketing and design solutions
             </p>
             <br />
-            <p>
+            <p className="font-semibold">
               Our small team of three, including two Catholics, established
               Ekkino in 2024 with the purpose of assisting Churches and
               Non-Profits in their mission to improve the world. Our work aims
@@ -31,8 +33,8 @@ export default function About() {
                 height="200"
               />
             </div>
-            <h1>The Process</h1>
-            <p>
+            <h1 className="font-bold font-sans text-[34px]">The Process</h1>
+            <p className="font-semibold">
               Utilizing a 5-step approach enables us to deliver efficient and
               high-quality solutions while offering the full range of services
               typically associated with large-scale operations. Each step is

@@ -4,11 +4,11 @@ export default function ListServices() {
   return (
     <div className="text-[#2E2E2F] bg-[url('../../public/ListServicesBg.png')] bg-cover pb-[30px] flex gap-[10px] flex-col">
       <div className="text-center">
-        <h1 className="text-[28px] font-bold relative bottom-[20px]">
+        <h1 className="text-[38px] font-bold font-sans relative bottom-[20px]">
           OUR SERVICES
         </h1>
       </div>
-      <div className="flex mx-auto w-[80%] flex-wrap gap-[30px] justify-evenly text-[16px] font-bold">
+      <div className="flex mx-auto w-[80%] flex-wrap gap-[30px] justify-center text-[16px] font-sans font-semibold">
         <h2>BRANDING</h2>
         <h2>WEB DESIGN</h2>
         <h2>SEO</h2>
