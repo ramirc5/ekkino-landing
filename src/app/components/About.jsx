@@ -11,7 +11,7 @@ export default function About() {
                 ABOUT US
               </h1>
               <Image
-                className="relative bottom-[145px] block md:hidden"
+                className="relative bottom-[145px] hidden md:hidden"
                 src={`/5star.jpg`}
                 width="100"
                 height="150"

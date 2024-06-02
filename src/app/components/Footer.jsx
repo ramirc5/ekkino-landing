@@ -33,9 +33,18 @@ export default function Footer() {
         <div className="flex flex-col gap-[10px] w-[80%] w-auto">
           <h3 className="hidden md:block">Connect</h3>
           <div className="flex gap-[10px] justify-around md:flex-row">
-            <Image src={`/fb.svg`} width="20" height="20" />
-            <Image src={`/insta.svg`} width="20" height="20" />
-            <Image src={`/linkedin.svg`} width="20" height="20" />
+            <a href="https://www.linkedin.com/company/ekkino" target="_blank">
+              {" "}
+              <Image src={`/fb.svg`} width="20" height="20" />
+            </a>
+            <a href="https://www.instagram.com/ekkinogroup/" target="_blank">
+              {" "}
+              <Image src={`/insta.svg`} width="20" height="20" />
+            </a>
+            <a href="https://www.facebook.com/ekkinogroup" target="_blank">
+              {" "}
+              <Image src={`/linkedin.svg`} width="20" height="20" />
+            </a>
           </div>
         </div>
         <p className="text-[8px] md:hidden">
