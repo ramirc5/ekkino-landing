@@ -34,8 +34,9 @@ export default function Home() {
           </p>
           <p>Country refers to: Wyoming, United States</p>
           <p>
-            Company (referred to as either "the Company", "We", "Us" or "Our" in
-            this Agreement) refers to Ekkino LLC, [Address]
+            Company (referred to as either &quot;the Company&quot;,
+            &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement)
+            refers to Ekkino LLC, [Address]
           </p>
           <p>
             Device means any device that can access the Service such as a
@@ -43,11 +44,11 @@ export default function Home() {
           </p>
           <p>Service refers to the Website.</p>
           <p>
-            Terms and Conditions (also referred as "Terms") mean these Terms and
-            Conditions that form the entire agreement between You and the
-            Company regarding the use of the Service. This Terms and Conditions
-            agreement has been created with the help of the Terms and Conditions
-            Generator.
+            Terms and Conditions (also referred as &quot;Terms&quot;) mean these
+            Terms and Conditions that form the entire agreement between You and
+            the Company regarding the use of the Service. This Terms and
+            Conditions agreement has been created with the help of the Terms and
+            Conditions Generator.
           </p>
           <p>
             Third-party Social Media Service means any services or content
