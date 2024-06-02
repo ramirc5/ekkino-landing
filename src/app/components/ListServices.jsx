@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ListServices() {
   return (
-    <div className="text-[#2E2E2F] bg-[url('../../public/ListServicesBg.png')] bg-cover pb-[30px] flex gap-[10px] flex-col">
+    <div className="text-[#2E2E2F] bg-[url('../../public/ListServicesBg.png')] lg:bg-cover pb-[25px] flex gap-[10px] flex-col">
       <div className="text-center">
         <h1 className="text-[38px] font-bold font-sans relative bottom-[20px]">
           OUR SERVICES
@@ -17,9 +17,9 @@ export default function ListServices() {
         <h2>SOCIAL MEDIA</h2>
         <h2>PRINT</h2>
         <h2>E-COMMERCE</h2>
-        <h2>FREE ADS</h2>
-        <h2>DIGITAL MARKETING</h2>
-        <h2>SEM</h2>
+        <h2 className="hidden md:block">FREE ADS</h2>
+        <h2 className="hidden md:block">DIGITAL MARKETING</h2>
+        <h2 className="hidden md:block">SEM</h2>
         <h2>DIGITAL DESIGN</h2>
         <h2>WORDPRESS</h2>
         <h2>AND MORE</h2>

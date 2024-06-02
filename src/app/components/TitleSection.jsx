@@ -6,7 +6,7 @@ import main from "../../../public/main_icon.png";
 
 export default function TitleSection() {
   return (
-    <div className="bg-[url('../../public/title-overlay.png')] bg-cover py-[30px]">
+    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover py-[30px]">
       <div className="flex flex-col w-[80%] mx-auto gap-[50px]">
         <div className="flex flex-row  justify-between mx-auto">
           <div class="flex flex-col gap-[10px]  w-[100%] xl:w-[50%]">
