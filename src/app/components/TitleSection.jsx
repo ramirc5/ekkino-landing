@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Bullets from "./Bullets";
-
+import Navbar from "./Navbar";
 import main from "../../../public/main_icon.png";
 
 export default function TitleSection() {
   return (
-    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover py-[30px]">
-      <div className="flex flex-col w-[80%] mx-auto gap-[50px]">
-        <div className="flex flex-row  justify-between mx-auto">
+    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover pb-[30px]">
+      <Navbar />
+      <div className="flex flex-col w-[90%] mx-auto gap-[50px]">
+        <div className="flex flex-row  justify-between m-0 xl:mx-auto">
           <div class="flex flex-col gap-[10px]  w-[100%] xl:w-[50%]">
             <h1 className="text-[40px] font-bold font-sans text-[#2E2E2F] ">
               A <span className="text-[#6C63FF]">FULL SERVICE</span> MARKETING{" "}

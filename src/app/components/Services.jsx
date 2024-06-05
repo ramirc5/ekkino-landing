@@ -3,7 +3,10 @@ import ServicesArrow from "../../../public/services-arrow.svg";
 
 export default function Services() {
   return (
-    <div className="flex text-[#2E2E2F] flex-wrap gap-[25px] w-[95%] mx-auto py-[30px] justify-evenly">
+    <div
+      id="services"
+      className="flex text-[#2E2E2F] flex-wrap gap-[25px] w-[95%] mx-auto py-[30px] justify-evenly"
+    >
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
           <h1 className="font-bold font-sans text-[30px]">DISCOVERY</h1>

@@ -3,7 +3,7 @@ import Services from "./Services";
 export default function About() {
   return (
     <div className="bg-white">
-      <div className="w-[85%] text-black mx-auto py-[50px]">
+      <div className="w-[90%] text-black mx-auto py-[50px]">
         <div className="flex gap-[50px] flex-col md:flex-row">
           <div className="flex flex-col ">
             <div className="flex justify-between">

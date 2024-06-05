@@ -1,17 +1,23 @@
 import React from "react";
 import Image from "next/image";
+import Contact from "./Contact";
+import Navbar from "../../components/Navbar";
 
 export default function EmailPage() {
   return (
-    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover py-[30px] min-h-[450px]">
-      <div className="w-[85%] mx-auto">
-        <h1 className="text-[#2E2E2F] font-sans font-bold text-[34px]">
-          LET&apos;S TALK
-        </h1>
-        <p className="text-[#2E2E2F] w-[85%]">
-          Let us ignite your brand, catalyze your mission: Ekkino, your new
-          marketing and creative agency partner
-        </p>
+    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover pb-[30px] min-h-[450px]">
+      <Navbar />
+      <div className="flex w-[85%] mx-auto flex-col gap-[30px] md:flex-row md:gap-[0px]">
+        <div className="w-full md:w-[85%] mx-auto ">
+          <h1 className="text-[#2E2E2F] font-sans font-bold text-[34px]">
+            LET&apos;S TALK
+          </h1>
+          <p className="text-[#2E2E2F] w-[90%]">
+            Let us ignite your brand, catalyze your mission: Ekkino, your new
+            marketing and creative agency partner
+          </p>
+        </div>
+        <Contact />
       </div>
     </div>
   );
