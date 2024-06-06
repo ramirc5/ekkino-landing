@@ -204,7 +204,7 @@ export default function Pkgs() {
     return content.map((plan, index) => (
       <div
         key={index}
-        className="p-6 bg-[#6C63FF] text-white rounded-xl flex flex-col items-center justify-between min-h-[620px]"
+        className="p-6 bg-[#6C63FF] text-white rounded-xl flex flex-col items-center justify-between min-h-[640px] gap-[10px]"
       >
         <div>
           <h3 className="text-2xl font-bold">{plan.title}</h3>

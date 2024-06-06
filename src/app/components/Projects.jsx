@@ -4,11 +4,13 @@ import Bullets from "./Bullets";
 import Navbar from "./Navbar";
 import main from "../../../public/main_icon.png";
 import Pkgs from "./Pkgs";
+import Portfolio from "./Portfolio";
 
 export default function Projects() {
   return (
     <div className="bg-[url('../../public/projects-bg.png')] bg-contain md:bg-cover pb-[30px]">
       <div className="flex flex-col w-[90%] mx-auto gap-[50px]">
+        <Portfolio />
         <Pkgs />
         <div className="flex flex-col text-[#2E2E2F] hidden md:block">
           <h1 className="font-sans font-bold text-[32px] text-center">
