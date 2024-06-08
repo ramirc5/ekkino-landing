@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Footer() {
   return (
     <div className="bg-[#2E2E2F] py-[25px]">
@@ -22,7 +22,7 @@ export default function Footer() {
             <h3>Menu</h3>
             <p className="text-[12px]">About Us</p>
             <p className="text-[12px]">Services</p>
-            <p className="text-[12px]">Latest Services</p>
+            <p className="text-[12px]">Latest Projects</p>
           </div>
           <div className="flex flex-col gap-[3px] md:gap-[10px]">
             <h3>Information</h3>
