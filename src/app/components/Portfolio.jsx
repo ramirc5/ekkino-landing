@@ -27,7 +27,7 @@ export default function Portfolio() {
             height={300}
           />
           <p className="text-right text-black font-[12px]">
-            Branding & Website
+            Branding and website change to UI Design for Ave Maria
           </p>
         </div>
         <div className="flex flex-col items-end">
@@ -39,7 +39,7 @@ export default function Portfolio() {
             height={300}
           />
           <p className="text-right text-black font-[12px]">
-            Google Ad Campaign
+            Branding and UI Design
           </p>
         </div>
       </div>

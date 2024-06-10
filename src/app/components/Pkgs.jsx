@@ -241,8 +241,25 @@ export default function Pkgs() {
         </div>
         <div>
           <Link href="/contact/">
-            <button class="flex text-[10px] md:text-[14px] justify-center items-center px-2 py-2 md:px-3  border border-white   text-white text-lg font-medium rounded-full focus:outline-none w-[135px] md:w-[274px]">
+            <button class="hidden lg:flex  text-[10px] md:text-[14px] justify-center items-center  py-2 md:px-3  border border-white   text-white text-md font-medium rounded-full focus:outline-none w-[135px] md:w-[250px]">
               Like This Plan? Lets Chat
+              <svg
+                class="ml-2 w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                ></path>
+              </svg>
+            </button>
+            <button class="lg:hidden flex text-[10px] md:text-[14px] justify-center items-center px-2 py-2 md:px-3  border border-white   text-white text-lg font-medium rounded-full focus:outline-none w-[135px] ">
+              Lets Talk
               <svg
                 class="ml-2 w-5 h-5"
                 fill="none"

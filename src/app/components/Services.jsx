@@ -50,7 +50,6 @@ export default function Services() {
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
           <h1 className="font-bold font-sans text-[30px]">OPTIMIZE/SUPPORT</h1>
-          <Image src={ServicesArrow} />
         </div>
         <p>
           We offer ongoing support services, ensuring that even after delivery,
