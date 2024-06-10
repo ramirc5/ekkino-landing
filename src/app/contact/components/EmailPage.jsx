@@ -5,11 +5,11 @@ import Navbar from "../../components/Navbar";
 
 export default function EmailPage() {
   return (
-    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover pb-[30px] min-h-[450px]">
+    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover pb-[30px] min-h-[80vh]">
       <Navbar />
       <div className="flex w-[90%] mx-auto flex-col gap-[30px] md:flex-row md:gap-[0px]">
         <div className="w-full md:w-[85%] mx-auto ">
-          <h1 className="text-[#2E2E2F] font-sans font-bold text-[34px]">
+          <h1 className="text-[#2E2E2F] font-sans font-bold text-[50px]">
             LET&apos;S TALK
           </h1>
           <p className="text-[#2E2E2F] w-[90%]">

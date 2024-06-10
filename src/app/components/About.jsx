@@ -35,7 +35,7 @@ export default function About() {
             </p>
           </div>
           <div className="flex flex-col">
-            <div className="mx-auto">
+            <div className="ml-auto mr-0">
               <Image
                 className="relative bottom-[85px] hidden md:block rotate-15"
                 src={`/5star.png`}
@@ -44,7 +44,9 @@ export default function About() {
                 style={{ transform: "rotate(15deg)" }}
               />
             </div>
-            <h1 className="font-bold font-sans text-[34px]">The Process</h1>
+            <h1 className="font-bold font-sans text-[34px] text-right">
+              THE PROCESS
+            </h1>
             <p className="font-semibold text-right">
               Utilizing a 5-step approach enables us to deliver efficient and
               high-quality solutions while offering the full range of services

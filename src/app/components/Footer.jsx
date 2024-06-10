@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div className="bg-[#2E2E2F] py-[25px]">
       <div className="flex flex-col md:flex-row gap-[15px] md:gap-[0px] items-center md:items-start  w-[90%] mx-auto justify-between ">
-        <div className="flex flex-col items-center md:items-no-stretch gap-[5px] md:  gap-[20px] w-[95%] md:w-[250px]">
+        <div className="flex flex-col items-center md:items-start md:items-no-stretch gap-[5px] md:  gap-[20px] w-[95%] md:w-[250px]">
           <Image src={`/logo.svg`} width="110" height="140" />
           <p className="text-[10px] text-center md:text-left">
             We don’t just talk, we listen. Together, we craft solutions that
@@ -43,7 +43,7 @@ export default function Footer() {
         <div className="flex flex-col gap-[10px] w-[80%] w-auto">
           <h3 className="text-center hidden md:block">Connect</h3>
           <div className="flex gap-[10px] justify-around md:flex-row">
-            <a href="https://www.linkedin.com/company/ekkino" target="_blank">
+            <a href="https://www.facebook.com/ekkinogroup" target="_blank">
               {" "}
               <Image src={`/fb.svg`} width="20" height="20" />
             </a>
@@ -51,7 +51,7 @@ export default function Footer() {
               {" "}
               <Image src={`/insta.svg`} width="20" height="20" />
             </a>
-            <a href="https://www.facebook.com/ekkinogroup" target="_blank">
+            <a href="https://www.linkedin.com/company/ekkino" target="_blank">
               {" "}
               <Image src={`/linkedin.svg`} width="20" height="20" />
             </a>

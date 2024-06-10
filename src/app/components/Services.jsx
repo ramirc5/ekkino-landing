@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <div
       id="services"
-      className="flex text-[#2E2E2F] flex-wrap gap-[25px] w-[95%] mx-auto py-[30px] justify-evenly"
+      className="flex text-[#2E2E2F] flex-wrap gap-[25px] w-[95%] mx-auto pb-[50px] justify-evenly"
     >
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">

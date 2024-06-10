@@ -4,6 +4,7 @@ import Bullets from "./Bullets";
 import Navbar from "./Navbar";
 import main from "../../../public/main_icon.png";
 import Star from "./Star";
+import Link from "next/link";
 export default function TitleSection() {
   return (
     <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover pb-[30px] min-h-[60vh] justify-between">
@@ -30,23 +31,25 @@ export default function TitleSection() {
             />
           </div>
         </div>
-        <button class="flex items-center px-4 py-2 border border-gray-400 rounded-full text-gray-700 hover:bg-gray-200 focus:outline-none w-[135px]">
-          Let&apos;s Chat
-          <svg
-            class="ml-2 w-4 h-4"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M14 5l7 7m0 0l-7 7m7-7H3"
-            ></path>
-          </svg>
-        </button>
+        <Link href="/contact/">
+          <button class="flex items-center px-4 py-2 border border-gray-400 rounded-full text-gray-700  focus:outline-none w-[135px]">
+            Let&apos;s Chat
+            <svg
+              class="ml-2 w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              ></path>
+            </svg>
+          </button>
+        </Link>
         <Bullets />
       </div>
     </div>

@@ -46,7 +46,7 @@ const Contact: FC = () => {
         />
         {errors.email && <p className="text-red-500 mt-1">{errors.email.message}</p>}
       </div>
-      <div className="flex flex-col gap-[20px] md:gap-[0px] md:flex-row mb-5">
+      <div className="flex flex-col gap-[20px]  md:flex-row mb-5">
         <input
           type='text'
           placeholder='Subject'

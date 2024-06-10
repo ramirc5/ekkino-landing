@@ -20,24 +20,26 @@ export default function Navbar() {
       >
         <div className="flex py-[20px]">
           <div className="flex flex-col gap-[25px] justify-between w-full">
-            <Image
-              className=""
-              src={`/ekkino-nav.svg`}
-              width="100"
-              height="150"
-            />
+            <Link href="/" onClick={toggle}>
+              <Image
+                className=""
+                src={`${isOpen ? `logo.svg` : `ekkino-nav.svg`}`}
+                width="100"
+                height="150"
+              />
+            </Link>
             <div
               className={`${isOpen ? `flex flex-col gap-[20px]` : `hidden`}`}
             >
-              <Link href="/#about">
+              <Link href="/#about" onClick={toggle}>
                 <p>About Us</p>
               </Link>
-              <Link href="/#services">
+              <Link href="/#services" onClick={toggle}>
                 <p>Services</p>
               </Link>
 
               <p>Work</p>
-              <Link href="/contact/">
+              <Link href="/contact/" onClick={toggle}>
                 <p>Contact Us</p>
               </Link>
             </div>
@@ -62,14 +64,16 @@ export default function Navbar() {
           )}
         </div>
       </div>
-      <div className="text-[#2E2E2F] bg-transparent font-semibold text-160px] py-[20px] w-[90%] mx-auto hidden md:block">
+      <div className="text-[#2E2E2F] bg-transparent font-semibold [text-16px] pt-[30px] pb-[20px] w-[90%] mx-auto hidden md:block">
         <div className="flex justify-between w-full">
-          <Image
-            className=""
-            src={`/ekkino-nav.svg`}
-            width="100"
-            height="150"
-          />
+          <Link href="/">
+            <Image
+              className=""
+              src={`/ekkino-nav.svg`}
+              width="100"
+              height="150"
+            />
+          </Link>
           <div className="flex gap-[20px]">
             <Link href="/#about">
               <p>About Us</p>

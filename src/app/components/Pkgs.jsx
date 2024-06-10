@@ -206,7 +206,7 @@ export default function Pkgs() {
         key={index}
         className="p-6 bg-[#6C63FF] text-white rounded-xl flex flex-col items-center justify-between min-h-[640px] gap-[10px]"
       >
-        <div>
+        <div className="w-full">
           <h3 className="text-2xl font-bold">{plan.title}</h3>
           <p className="mt-4 text-[24px] font-sans font-semibold">
             Starting at {plan.price}
@@ -240,8 +240,8 @@ export default function Pkgs() {
           </ul>
         </div>
         <div>
-          <Link href="/email">
-            <button class="flex text-[10px] md:text-[14px] justify-center items-center px-2 py-2 md:px-3  border border-white   text-white text-lg font-medium rounded-full transition duration-300 hover:bg-purple-800 focus:outline-none w-[135px] md:w-[274px]">
+          <Link href="/contact/">
+            <button class="flex text-[10px] md:text-[14px] justify-center items-center px-2 py-2 md:px-3  border border-white   text-white text-lg font-medium rounded-full focus:outline-none w-[135px] md:w-[274px]">
               Like This Plan? Lets Chat
               <svg
                 class="ml-2 w-5 h-5"
