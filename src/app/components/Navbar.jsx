@@ -37,8 +37,9 @@ export default function Navbar() {
               <Link href="/#services" onClick={toggle}>
                 <p>Services</p>
               </Link>
-
-              <p>Work</p>
+              <Link href="/#latest">
+                <p>Work</p>
+              </Link>
               <Link href="/contact/" onClick={toggle}>
                 <p>Contact Us</p>
               </Link>
@@ -81,8 +82,9 @@ export default function Navbar() {
             <Link href="/#services">
               <p>Services</p>
             </Link>
-
-            <p>Work</p>
+            <Link href="/#latest">
+              <p>Work</p>
+            </Link>
             <Link href="/contact/">
               <p>Contact Us</p>
             </Link>
