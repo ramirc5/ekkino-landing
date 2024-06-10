@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <div className="bg-[#2E2E2F] py-[25px]">
+    <div className="bg-[#2E2E2F] text-[#FFFFFF] py-[25px]">
       <div className="flex flex-col md:flex-row gap-[15px] md:gap-[0px] items-center md:items-start  w-[90%] mx-auto justify-between ">
         <div className="flex flex-col items-center md:items-start md:items-no-stretch gap-[5px] md:  gap-[20px] w-[95%] md:w-[250px]">
           <Image src={`/logo.svg`} width="110" height="140" />

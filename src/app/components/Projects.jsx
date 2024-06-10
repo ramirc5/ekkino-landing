@@ -8,7 +8,7 @@ import Portfolio from "./Portfolio";
 
 export default function Projects() {
   return (
-    <div className="bg-[url('../../public/projects-bg.png')] bg-contain md:bg-cover pb-[30px]">
+    <div className="bg-[url('../../public/projects-bg.png')] bg-cover pb-[30px]">
       <div className="flex flex-col w-[90%] mx-auto gap-[50px]">
         <Portfolio />
         <Pkgs />
