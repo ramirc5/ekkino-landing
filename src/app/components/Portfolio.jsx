@@ -17,14 +17,14 @@ export default function Portfolio() {
         <h1 className="text-[38px] font-bold font-sans">LATEST PROJECTS</h1>
       </div>
 
-      <div className="flex flex-col md:flex-row gap-[25px]">
+      <div className="flex flex-col md:flex-row gap-[25px] mx-auto">
         <div className="flex flex-col items-end">
           <Image
             className=""
             src={`/app1.jpeg`}
             sizes="100vw"
-            width={500}
-            height={300}
+            width={900}
+            height={600}
           />
           <p className="text-right text-black font-[12px]">
             Branding and website change to UI Design for Ave Maria
@@ -35,8 +35,8 @@ export default function Portfolio() {
             className=""
             src={`/app2.jpeg`}
             sizes="100vw"
-            width={500}
-            height={300}
+            width={900}
+            height={600}
           />
           <p className="text-right text-black font-[12px]">
             Branding and UI Design
