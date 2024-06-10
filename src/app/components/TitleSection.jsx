@@ -3,15 +3,15 @@ import Image from "next/image";
 import Bullets from "./Bullets";
 import Navbar from "./Navbar";
 import main from "../../../public/main_icon.png";
-
+import Star from "./Star";
 export default function TitleSection() {
   return (
-    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover pb-[30px]">
+    <div className="bg-[url('../../public/title-overlay.png')] bg-contain md:bg-cover pb-[30px] min-h-[60vh] justify-between">
       <Navbar />
       <div className="flex flex-col w-[90%] mx-auto gap-[50px]">
-        <div className="flex flex-row  justify-between m-0 xl:mx-auto">
+        <div className="flex flex-row  justify-between m-0 ">
           <div class="flex flex-col gap-[10px]  w-[100%] xl:w-[50%]">
-            <h1 className="text-[40px] font-bold font-sans text-[#2E2E2F] ">
+            <h1 className="text-[40px] xl:text-[50px] font-bold font-sans text-[#2E2E2F] ">
               A <span className="text-[#6C63FF]">FULL SERVICE</span> MARKETING{" "}
               <span className="text-[#6C63FF]">AGENCY</span> FOR{" "}
               <span className="text-[#6C63FF]">YOU</span>
@@ -21,13 +21,14 @@ export default function TitleSection() {
               for Non-Profits and Small Businesses
             </p>
           </div>
-
-          <Image
-            className="hidden xl:block"
-            src={`/main_icon.png`}
-            width="200"
-            height="230"
-          />
+          <div className="">
+            <Image
+              className="hidden xl:block"
+              src={`/main_icon.png`}
+              width="250"
+              height="310"
+            />
+          </div>
         </div>
         <button class="flex items-center px-4 py-2 border border-gray-400 rounded-full text-gray-700 hover:bg-gray-200 focus:outline-none w-[135px]">
           Let&apos;s Chat

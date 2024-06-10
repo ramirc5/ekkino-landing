@@ -20,18 +20,28 @@ export default function Footer() {
         <div className="flex gap-[30px] mx-auto justify-space-around md:flex-row">
           <div className="flex flex-col gap-[3px] md:gap-[10px] w-[80%] w-auto">
             <h3>Menu</h3>
-            <p className="text-[12px]">About Us</p>
-            <p className="text-[12px]">Services</p>
-            <p className="text-[12px]">Latest Projects</p>
+            <Link href="/#about">
+              <p className="text-[12px]">About Us</p>
+            </Link>
+            <Link href="/#services">
+              <p className="text-[12px]">Services</p>
+            </Link>
+            <Link href="/#latest">
+              <p className="text-[12px]">Latest Projects</p>
+            </Link>
           </div>
           <div className="flex flex-col gap-[3px] md:gap-[10px]">
             <h3>Information</h3>
-            <p className="text-[12px]">Contact Us</p>
-            <p className="text-[12px]">Terms & Conditions</p>
+            <Link href="/contact/">
+              <p className="text-[12px]">Contact Us</p>
+            </Link>
+            <Link href="/terms/">
+              <p className="text-[12px]">Terms & Conditions</p>
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-[10px] w-[80%] w-auto">
-          <h3 className="hidden md:block">Connect</h3>
+          <h3 className="text-center hidden md:block">Connect</h3>
           <div className="flex gap-[10px] justify-around md:flex-row">
             <a href="https://www.linkedin.com/company/ekkino" target="_blank">
               {" "}
@@ -44,6 +54,10 @@ export default function Footer() {
             <a href="https://www.facebook.com/ekkinogroup" target="_blank">
               {" "}
               <Image src={`/linkedin.svg`} width="20" height="20" />
+            </a>
+            <a href="https://www.x.com/ekkinogroup" target="_blank">
+              {" "}
+              <Image src={`/twitter.png`} width="20" height="20" />
             </a>
           </div>
         </div>

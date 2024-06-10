@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function ListServices() {
   return (
-    <div className="text-[#2E2E2F] bg-[url('../../public/ListServicesBg.png')] lg:bg-cover pb-[25px] flex gap-[10px] flex-col">
+    <div className="text-[#2E2E2F] bg-[url('../../public/ListServicesBg.png')] lg:bg-cover pb-[20px] flex gap-[10px] flex-col min-h-[25vh]">
       <div className="text-center">
         <h1 className="text-[38px] font-bold font-sans relative bottom-[20px]">
           OUR SERVICES
         </h1>
       </div>
-      <div className="flex mx-auto w-[80%] flex-wrap gap-[30px] justify-center text-[16px] font-sans font-semibold">
+      <div className="flex mx-auto w-[80%] md:w-[90%] flex-wrap gap-[30px] justify-center text-[16px] md:text-[24px] font-sans font-semibold">
         <h2>BRANDING</h2>
         <h2>WEB DESIGN</h2>
         <h2>SEO</h2>

@@ -29,7 +29,7 @@ export default function Navbar() {
             <div
               className={`${isOpen ? `flex flex-col gap-[20px]` : `hidden`}`}
             >
-              <Link href="/">
+              <Link href="/#about">
                 <p>About Us</p>
               </Link>
               <Link href="/#services">
@@ -71,7 +71,7 @@ export default function Navbar() {
             height="150"
           />
           <div className="flex gap-[20px]">
-            <Link href="/">
+            <Link href="/#about">
               <p>About Us</p>
             </Link>
             <Link href="/#services">

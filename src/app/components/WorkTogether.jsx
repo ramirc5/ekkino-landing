@@ -6,7 +6,7 @@ export default function WorkTogether() {
       <h1 className="font-bold font-sans text-[24px] md:text-[40px]">
         LET’S WORK TOGETHER
       </h1>
-      <button class="flex text-[10px] md:text-[24px] items-center px-3 py-2 md:px-6 md:py-3 bg-[#807BEC] text-white text-lg font-medium rounded-full transition duration-300 hover:bg-purple-800 focus:outline-none w-[135px] md:w-[184px]">
+      <button class="flex text-[10px] md:text-[24px] items-center px-3 py-2 md:px-6 md:py-3 bg-[#807BEC] text-white text-lg font-medium rounded-full transition duration-300 focus:outline-none w-[135px] md:w-[184px]">
         Let&apos;s Talk
         <svg
           class="ml-2 w-5 h-5"

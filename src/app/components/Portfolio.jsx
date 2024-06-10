@@ -2,7 +2,17 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <div className="flex text-[#2E2E2F] gap-[10px] flex-col py-[30px]">
+    <div
+      id="latest"
+      className="flex text-[#2E2E2F] gap-[10px] flex-col py-[30px]"
+    >
+      <Image
+        className="relative bottom-[5px] hidden md:block rotate-15 mt-[-100px]"
+        src={`/1minute.png`}
+        width="175"
+        height="200"
+        style={{ transform: "rotate(-30deg)" }}
+      />
       <div className="flex justify-between">
         <h1 className="text-[38px] font-bold font-sans">LATEST PROJECTS</h1>
       </div>

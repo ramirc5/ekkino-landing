@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Services from "./Services";
+import Star from "./Star";
 export default function About() {
   return (
-    <div className="bg-white">
+    <div id="about" className="bg-white">
       <div className="w-[90%] text-black mx-auto py-[50px]">
         <div className="flex gap-[50px] flex-col md:flex-row">
           <div className="flex flex-col ">
@@ -12,9 +13,10 @@ export default function About() {
               </h1>
               <Image
                 className="relative bottom-[145px] hidden md:hidden"
-                src={`/5star.jpg`}
+                src={`/5star.png`}
                 width="100"
                 height="150"
+                style={{ transform: "rotate(15deg)" }}
               />
             </div>
             <p className="font-semibold">
@@ -35,10 +37,11 @@ export default function About() {
           <div className="flex flex-col">
             <div className="mx-auto">
               <Image
-                className="relative bottom-[45px] hidden md:block"
-                src={`/5star.jpg`}
+                className="relative bottom-[85px] hidden md:block rotate-15"
+                src={`/5star.png`}
                 width="175"
                 height="200"
+                style={{ transform: "rotate(15deg)" }}
               />
             </div>
             <h1 className="font-bold font-sans text-[34px]">The Process</h1>
