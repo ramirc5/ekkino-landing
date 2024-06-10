@@ -37,7 +37,7 @@ export default function Navbar() {
               </Link>
 
               <p>Work</p>
-              <Link href="/email">
+              <Link href="/contact/">
                 <p>Contact Us</p>
               </Link>
             </div>
@@ -79,7 +79,7 @@ export default function Navbar() {
             </Link>
 
             <p>Work</p>
-            <Link href="/email">
+            <Link href="/contact/">
               <p>Contact Us</p>
             </Link>
           </div>
