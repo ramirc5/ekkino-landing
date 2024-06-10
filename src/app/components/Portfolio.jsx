@@ -27,7 +27,7 @@ export default function Portfolio() {
             height={600}
           />
           <p className="text-right text-black font-[12px]">
-            Branding and website change to UI Design for Ave Maria
+            Flyer and UI Design
           </p>
         </div>
         <div className="flex flex-col items-end">
