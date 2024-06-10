@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 export default function WorkTogether() {
+  //    <div className="text-white bg-center 2xl:bg-[url('../../public/Connect-2XL.png')] xl:bg-[url('../../public/Connect-XL.png')] lg:bg-[url('../../public/Connect-Large.png')] md:bg-[url('../../public/Connect-Medium.png')] sm:bg-[url('../../public/Connect-Small.png')] bg-cover min-h-[100px] md:min-h-[273px] flex flex-col justify-center items-center md:gap-[30px]">
+  // above isnt working 100% but breakpoints for the background would be nice
   return (
-    <div className="text-white bg-center 2xl:bg-[url('../../public/Connect-2XL.png')] xl:bg-[url('../../public/Connect-XL.png')] lg:bg-[url('../../public/Connect-Large.png')] md:bg-[url('../../public/Connect-Medium.png')] sm:bg-[url('../../public/Connect-Small.png')] bg-cover min-h-[100px] md:min-h-[273px] flex flex-col justify-center items-center md:gap-[30px]">
+    <div className="text-white bg-[url('../../public/worktogether.png')] bg-cover min-h-[100px] md:min-h-[273px] flex flex-col justify-center items-center md:gap-[30px]">
       <h1 className="font-bold font-sans text-[24px] md:text-[40px]">
         LET’S WORK TOGETHER
       </h1>
