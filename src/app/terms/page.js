@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 export default function Home() {
   return (
-    <>
+    <div className="bg-white">
       <Navbar />
       <div className="bg-white text-[#2E2E2F]">
         <div className="flex flex-col gap-[10px] w-[90%] mx-auto py-[20px] text-[16px]">
@@ -291,6 +291,6 @@ export default function Home() {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
