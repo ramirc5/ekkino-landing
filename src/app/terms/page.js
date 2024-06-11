@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 export default function Home() {
   return (
     <>
+      <Navbar />
       <div className="bg-white text-[#2E2E2F]">
         <div className="flex flex-col gap-[10px] w-[90%] mx-auto py-[20px] text-[16px]">
           <h1 className="font-sans font-bold text-[30px]">
