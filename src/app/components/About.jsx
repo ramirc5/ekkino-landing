@@ -8,9 +8,9 @@ export default function About() {
         <div className="flex gap-[50px] flex-col md:flex-row">
           <div className="flex flex-col ">
             <div className="flex justify-between">
-              <h1 className="text-[#2E2E2F] font-sans font-bold text-[34px]">
+              <h2 className="text-[#2E2E2F] font-sans font-bold text-[34px]">
                 ABOUT US
-              </h1>
+              </h2>
               <Image
                 className="relative bottom-[145px] hidden md:hidden"
                 src={`/5star.png`}
@@ -44,9 +44,9 @@ export default function About() {
                 style={{ transform: "rotate(15deg)" }}
               />
             </div>
-            <h1 className="font-bold font-sans text-[34px] text-right">
+            <h2 className="font-bold font-sans text-[34px] text-right">
               THE PROCESS
-            </h1>
+            </h2>
             <p className="font-semibold text-right">
               Utilizing a 5-step approach enables us to deliver efficient and
               high-quality solutions while offering the full range of services

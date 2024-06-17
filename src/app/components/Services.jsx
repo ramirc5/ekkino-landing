@@ -9,7 +9,7 @@ export default function Services() {
     >
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="font-bold font-sans text-[30px]">DISCOVERY</h1>
+          <h2 className="font-bold font-sans text-[30px]">DISCOVERY</h2>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -19,7 +19,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="font-bold font-sans text-[30px]">STRATEGY</h1>
+          <h2 className="font-bold font-sans text-[30px]">STRATEGY</h2>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -29,7 +29,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="font-bold font-sans text-[30px]">CRAFTING</h1>
+          <h2 className="font-bold font-sans text-[30px]">CRAFTING</h2>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -39,7 +39,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="font-bold font-sans text-[30px]">EXECUTION</h1>
+          <h2 className="font-bold font-sans text-[30px]">EXECUTION</h2>
           <Image src={ServicesArrow} />
         </div>
         <p>
@@ -49,7 +49,7 @@ export default function Services() {
       </div>
       <div className="flex flex-col w-[320px]">
         <div className="flex justify-between">
-          <h1 className="font-bold font-sans text-[30px]">OPTIMIZE/SUPPORT</h1>
+          <h2 className="font-bold font-sans text-[30px]">OPTIMIZE/SUPPORT</h2>
         </div>
         <p>
           We offer ongoing support services, ensuring that even after delivery,

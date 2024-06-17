@@ -1,23 +1,28 @@
-import Image from "next/image";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+export const metadata = {
+  title: "Terms and Conditions | Ekkino",
+
+  description:
+    "Read Ekkino's Terms and Conditions. Understand the terms of service, privacy policy, and your rights and obligations when using our website and services.",
+};
 export default function Home() {
   return (
     <div className="bg-white">
       <Navbar />
       <div className="bg-white text-[#2E2E2F]">
         <div className="flex flex-col gap-[10px] w-[90%] mx-auto py-[20px] text-[16px]">
-          <h1 className="font-sans font-bold text-[30px]">
+          <h2 className="font-sans font-bold text-[30px]">
             Terms & Conditions
-          </h1>
+          </h2>
           <p>Last updated: January 07, 2024</p>
           <p>
             Please read these terms and conditions carefully before using Our
             Service.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Interpretation and Definitions
-          </h1>
+          </h2>
           <p>Interpretation</p>
           <p>
             The words of which the initial letter is capitalized have meanings
@@ -67,9 +72,9 @@ export default function Home() {
             company, or other legal entity on behalf of which such individual is
             accessing or using the Service, as applicable.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Acknowledgment
-          </h1>
+          </h2>
           <p>
             These are the Terms and Conditions governing the use of this Service
             and the agreement that operates between You and the Company. These
@@ -100,9 +105,9 @@ export default function Home() {
             rights and how the law protects You. Please read Our Privacy Policy
             carefully before using Our Service.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Links to Other Websites
-          </h1>
+          </h2>
           <p>
             Our Service may contain links to third-party web sites or services
             that are not owned or controlled by the Company.
@@ -120,7 +125,7 @@ export default function Home() {
             We strongly advise You to read the terms and conditions and privacy
             policies of any third-party web sites or services that You visit.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">Termination</h1>
+          <h2 className="font-sans font-semibold text-[24px]">Termination</h2>
           <p>
             We may terminate or suspend Your access immediately, without prior
             notice or liability, for any reason whatsoever, including without
@@ -130,9 +135,9 @@ export default function Home() {
             Upon termination, Your right to use the Service will cease
             immediately.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Limitation of Liability
-          </h1>
+          </h2>
           <p>
             Notwithstanding any damages that You might incur, the entire
             liability of the Company and any of its suppliers under any
@@ -161,10 +166,10 @@ export default function Home() {
             these states, each party&apos;s liability will be limited to the
             greatest extent permitted by law.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; Disclaimer of
             Liability{" "}
-          </h1>
+          </h2>
           <p>
             The Service is provided to You &quot;AS IS&quot; and &quot;AS
             AVAILABLE&quot; and with all faults and defects without warranty of
@@ -204,32 +209,32 @@ export default function Home() {
             set forth in this section shall be applied to the greatest extent
             enforceable under applicable law.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">Governing Law</h1>
+          <h2 className="font-sans font-semibold text-[24px]">Governing Law</h2>
           <p>
             The laws of the Country, excluding its conflicts of law rules, shall
             govern this Terms and Your use of the Service. Your use of the
             Application may also be subject to other local, state, national, or
             international laws.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Disputes Resolution
-          </h1>
+          </h2>
           <p>
             If You have any concern or dispute about the Service, You agree to
             first try to resolve the dispute informally by contacting the
             Company.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             For European Union (EU) Users
-          </h1>
+          </h2>
           <p>
             If You are a European Union consumer, you will benefit from any
             mandatory provisions of the law of the country in which You are
             resident.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             United States Legal Compliance
-          </h1>
+          </h2>
           <p>
             You represent and warrant that (i) You are not located in a country
             that is subject to the United States government embargo, or that has
@@ -237,9 +242,9 @@ export default function Home() {
             supporting&quot; country, and (ii) You are not listed on any United
             States government list of prohibited or restricted parties.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Severability and Waiver
-          </h1>
+          </h2>
           <p>Severability</p>
           <p>
             If any provision of these Terms is held to be unenforceable or
@@ -256,17 +261,17 @@ export default function Home() {
             performance at any time thereafter nor shall the waiver of a breach
             constitute a waiver of any subsequent breach.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Translation Interpretation
-          </h1>
+          </h2>
           <p>
             These Terms and Conditions may have been translated if We have made
             them available to You on our Service. You agree that the original
             English text shall prevail in the case of a dispute.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">
+          <h2 className="font-sans font-semibold text-[24px]">
             Changes to These Terms and Conditions
-          </h1>
+          </h2>
           <p>
             We reserve the right, at Our sole discretion, to modify or replace
             these Terms at any time. If a revision is material We will make
@@ -280,7 +285,7 @@ export default function Home() {
             do not agree to the new terms, in whole or in part, please stop
             using the website and the Service.
           </p>
-          <h1 className="font-sans font-semibold text-[24px]">Contact Us</h1>
+          <h2 className="font-sans font-semibold text-[24px]">Contact Us</h2>
           <p>
             If you have any questions about these Terms and Conditions, You can
             contact us:

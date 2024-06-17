@@ -27,7 +27,7 @@ export default function Pkgs() {
         ],
       },
       {
-        title: "Basic Plan",
+        title: "Advanced Plan",
         price: "$1250/month",
         description: "Ideal for growing organizations",
         details: [
@@ -48,7 +48,7 @@ export default function Pkgs() {
         ],
       },
       {
-        title: "Basic Plan",
+        title: "Premium Plan",
         price: "$2450/month",
         description: "Limited budgets - starting social media",
         details: [
@@ -284,9 +284,9 @@ export default function Pkgs() {
   return (
     <div className="hidden md:block">
       <div className="flex justify-between space-x-4 mb-8">
-        <h1 className="text-[#2E2E2F] font-bold font-sans text-[40px]">
+        <h2 className="text-[#2E2E2F] font-bold font-sans text-[40px]">
           {activeTab.toUpperCase()} PACKAGES
-        </h1>
+        </h2>
         <div>
           <button
             onClick={() => handleTabChange("marketing")}

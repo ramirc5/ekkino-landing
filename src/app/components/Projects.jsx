@@ -13,9 +13,9 @@ export default function Projects() {
         <Portfolio />
         <Pkgs />
         <div className="flex flex-col text-[#2E2E2F] hidden md:block">
-          <h1 className="font-sans font-bold text-[32px] text-center">
+          <h2 className="font-sans font-bold text-[32px] text-center">
             NONE OF THESE FIT? HAVE QUESTIONS?
-          </h1>
+          </h2>
           <div className="flex gap-[20px]">
             <p className="text-left">
               At Ekkino, we recognize that every organization is unique, and

@@ -14,7 +14,7 @@ export default function Portfolio() {
         style={{ transform: "rotate(-30deg)" }}
       />
       <div className="flex justify-between">
-        <h1 className="text-[38px] font-bold font-sans">LATEST PROJECTS</h1>
+        <h2 className="text-[38px] font-bold font-sans">LATEST PROJECTS</h2>
       </div>
 
       <div className="flex flex-col md:flex-row gap-[25px] mx-auto">
